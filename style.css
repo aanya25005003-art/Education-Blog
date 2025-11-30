@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background-image: url("education.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    height: 300px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cat {
+    background: #8b2a9a;
+    color: white;
+    padding: 15px 150px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.post {
+    background: rgb(237, 225, 225);
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 2px solid black;
+}
+
+.tags {
+    font-size: 14px;
+    color: #777;
+}
+
+.comment-box {
+    width: 70%;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #8b2a9a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #561b54;
+}
+
+.comment {
+    background: white;
+    padding: 15px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 6px;
+    border-left: 4px solid #796328;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
