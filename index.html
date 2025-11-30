@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Educational Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>LearnNew Blog</h1>
+    <p>Learn Something New Everyday</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#articles">Articles</a>
+    <a href="#comments">Comment</a>
+</nav>
+
+<section id="categories">
+    <h2>Categories</h2>
+    <div class="category-box">
+        <div class="cat">Technology</div>
+        <div class="cat">Health</div>
+        <div class="cat">Finance</div>
+        <div class="cat">Science</div>
+        <div class="cat">Lifestyle</div>
+    </div>
+</section>
+
+<section id="articles">
+    <h2>Featured Articles</h2>
+
+    <div class="post">
+        <h3>The Future of Artificial Intelligence</h3>
+        <p class="tags">Tags: AI, Technology</p>
+        <p>Artificial Intelligence is transforming the world at a rapid pace... </p>
+    </div>
+
+    <div class="post">
+        <h3>How to Stay Healthy During Exams</h3>
+        <p class="tags">Tags: Health, Students</p>
+        <p>Maintaining good health during high stress periods is extremely important...</p>
+    </div>
+
+    <div class="post">
+        <h3>Smart Ways to Save Money</h3>
+        <p class="tags">Tags: Finance, Saving</p>
+        <p>Saving money does not have to be difficult. With a few small changes...</p>
+    </div>
+</section>
+
+<section id="comments">
+    <h2>Leave a Comment</h2>
+
+    <div class="comment-box">
+        <input type="text" id="username" placeholder="Your Name">
+        <textarea id="usercomment" placeholder="Write a comment..."></textarea>
+        <button onclick="postComment()">Post Comment</button>
+    </div>
+
+    <h3>All Comments:</h3>
+    <div id="comment-section"></div>
+</section>
+
+<footer>
+    © 2025 LearnNew Blog — All Rights Reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
